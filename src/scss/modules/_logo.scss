@@ -1,0 +1,11 @@
+.logo {
+
+}
+.logo-img {
+    width: 75px;
+    height: 75px;
+    transition: .8s ease-in-out;
+    &:hover {
+        transform: rotate(360deg);
+    }
+}
