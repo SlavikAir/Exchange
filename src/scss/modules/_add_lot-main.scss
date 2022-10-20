@@ -1,0 +1,46 @@
+.add_lot-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fieldset-lot {
+    margin: 0 20px;
+}
+.legend-lot {
+    margin: 20px;
+    color: $primaryColor;
+}
+.label-lot {
+    font-size: 18px;
+    color: $primaryColor;
+}
+.label-lot-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.lot-input {
+    min-width: 250px;
+    margin-left: 20px;
+    border: 2px solid $primaryColor;
+    border-radius: 20px;
+    height: 35px;
+    padding: 0 15px;
+    font-size: 25px;
+    color: $primaryColor;
+    &:invalid {
+        border: 2px solid red;
+
+    }
+}
+.lot-select {
+    min-width: 250px;
+    margin-left: 20px;
+    border: 2px solid $primaryColor;
+    border-radius: 20px;
+    height: 35px;
+    padding: 0 15px;
+    font-size: 18px;
+    background-color: #ffff;
+    color: $primaryColor;
+}

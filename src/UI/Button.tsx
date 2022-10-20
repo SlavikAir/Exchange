@@ -11,3 +11,4 @@ export const SearchButton = (props:IBigButton) => {
         <button className="search-button" onClick={props.onClick}>{props.name}</button>
     )
 }
+

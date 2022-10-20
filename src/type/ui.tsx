@@ -9,6 +9,8 @@ export interface IBigButton extends PropsWithChildren {
 export interface IInput {
     className:string
     value?:string
+    type?:string
+    onChange?: any
 }
 
 export interface IOption extends PropsWithChildren{

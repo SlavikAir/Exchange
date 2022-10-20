@@ -1,0 +1,19 @@
+.add_lot {
+    margin: 25px 0;
+    
+}
+.add_lot-items {
+    width: 100%;
+    position: relative;
+}
+.add_lot-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+.add_lot-header-title {
+    font-size: 32px;
+    color: $primaryColor;
+}

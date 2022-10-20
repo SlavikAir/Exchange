@@ -2,10 +2,12 @@ import { FC} from "react"
 import { IInput, IOption, ISelect } from "../type/ui"
 
 
-export const Input:FC<IInput>= ({className,value,}) => {
+export const Input:FC<IInput>= ({className,value,type,onChange}) => {
     return (
         <input className={className}
                 value={value}
+                type={type}
+                onChange={onChange}
                 />
     )
 }
@@ -21,6 +23,12 @@ export const Select:FC<ISelect> = ({option,className })=> {
         <select className={className}>
             {option.map( el => <option key={Math.floor(Math.random()*1000)} value={el}>{el}</option>)}
         </select>
+    )
+}
+
+export const NumberInput:FC = () => {
+    return (
+        <input type={'number'} className="number-input" />
     )
 }
 

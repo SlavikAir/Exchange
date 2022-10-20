@@ -1,0 +1,20 @@
+.add_lot-main-descriptions {
+    margin: 0 auto;
+}
+.lot-descriptions {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   
+   }
+.lot-textarea {
+    width: 90%;
+    display: block;
+    border: 2px solid $primaryColor;
+    border-radius: 20px;
+    color: $primaryColor;
+    width: 450px;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 10px;
+}
