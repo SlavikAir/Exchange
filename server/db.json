@@ -1,12 +1,35 @@
 {
-    "users": [
-        
-    ],
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ]
-   
-  }
+  "users": [],
+  "avto": [
+    {
+      "id": 1,
+      "name": "Audi A6",
+      "price": 9500,
+      "description": "description of lot",
+      "contact": [
+        "0990000000",
+        "0500000000"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Audi A5",
+      "price": 8000,
+      "description": "description of lot",
+      "contact": [
+        "0990000000",
+        "0500000000"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Audi A4",
+      "price": 7000,
+      "description": "description of lot",
+      "contact": [
+        "0990000000",
+        "0500000000"
+      ]
+    }
+  ]
+}
