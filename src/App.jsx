@@ -11,17 +11,6 @@ import axios from 'axios';
 
 
 function App() {
-  // let post = axios.post('http://localhost:3001/avto', {
-  //   "id": 3,
-  //   "name": "Audi A4",
-  //   "price": 7000,
-  //   "description": "description of lot",
-  //   "contact": [
-  //     "0990000000",
-  //     "0500000000"
-  //   ]})
-  //     .then(prom => console.log(JSON.parse(prom)))
-  // post()
   return (
     <div className="App">
         <Header />

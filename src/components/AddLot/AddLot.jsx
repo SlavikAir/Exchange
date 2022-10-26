@@ -1,4 +1,5 @@
 import LotDescriptions from "./modules/LotDescriptions"
+import { LotImg } from "./modules/LotImg"
 import LotInput from "./modules/LotInput"
 
 
@@ -17,6 +18,9 @@ const AddLot = () => {
                         <div className="add_lot-main-descriptions">
                             <LotDescriptions />
                         </div>
+                    </div>
+                    <div className="add_lot-img">
+                        <LotImg />
                     </div>
                 </div>
             </div>
