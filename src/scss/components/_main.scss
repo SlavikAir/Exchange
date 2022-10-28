@@ -1,0 +1,12 @@
+.main {
+    padding: 30px 0;
+}
+.main-navigation {
+    position: relative;
+    width: 100%;
+}
+.main-navigation-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+}

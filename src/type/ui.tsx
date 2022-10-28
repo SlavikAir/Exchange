@@ -4,6 +4,7 @@ import { PropsWithChildren } from "react"
 export interface IBigButton extends PropsWithChildren {
     name:string
     onClick?: ()=> void
+    style?:string
 }
 
 export interface IInput {

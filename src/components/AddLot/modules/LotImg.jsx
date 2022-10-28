@@ -1,7 +1,14 @@
+import { LotSlice } from "../../../store/reducers/LotReducer"
+import { useAppDispatch } from "../../../store/redux"
 import { Input } from "../../../UI/Input"
 
 
 export const LotImg = () => {
+
+    const {addImg} = LotSlice.actions; 
+    const dispatch = useAppDispatch()
+
+    
 
     let updateImg = (event) => {
         const preview = document.getElementById('preview')
@@ -14,8 +21,8 @@ export const LotImg = () => {
            
         }
         reader.onload = function () {
+            dispatch(addImg(reader.result))
             preview.src = reader.result
-            console.log(reader.result)
         }
 
     }
@@ -27,7 +34,7 @@ export const LotImg = () => {
                 className="lot-file"
                 onChange={updateImg} />
             <div >
-                <img id="preview" src="" className="lot-img-preview" />
+                <img alt="" id="preview" src="" className="lot-img-preview" />
             </div>
 
         </div>
