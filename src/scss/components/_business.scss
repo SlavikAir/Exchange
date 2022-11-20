@@ -1,0 +1,28 @@
+.business {
+    background: #002f34;
+}
+.business-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.business-items {
+    display: flex;
+    align-items: center;
+}
+.business-info {
+    margin: 0 50px;
+}
+.business-info-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: #7f9799;
+}
+.business-info-title {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    margin-top: 5px;
+    color: #fff;
+}

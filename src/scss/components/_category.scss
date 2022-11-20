@@ -1,0 +1,8 @@
+.category {
+    padding: 20px 0;
+}
+.category-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}

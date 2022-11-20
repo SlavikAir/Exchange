@@ -11,7 +11,10 @@
 @import "./components/search";
 @import "./components/add-lot";
 @import "./components/main";
-
+@import "./components/category";
+@import "./components/vip";
+@import "./components/business";
+@import "./components/networks";
 
 
  // Modules
@@ -19,10 +22,13 @@
  @import "./modules/navigation";
  @import "./modules/add_lot-main";
  @import "./modules/lot-descriptions";
-@import "./modules/main-nav";
-
+ @import "./modules/main-nav";
+ @import "./modules/goods-item";
+ @import "./modules/network-item";
+ @import "./modules/network-text";
  // Layouts
 
  // Ui
  @import "./ui/button";
  @import "./ui/input";
+ @import "./ui/decoration";

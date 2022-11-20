@@ -30,12 +30,13 @@ export const LotImg = () => {
     return (
         <div className="lot-img">
             <label className="label-lot" for="lot-name">Add Img : </label>
-            <Input type="file"
-                className="lot-file"
-                onChange={updateImg} />
             <div >
                 <img alt="" id="preview" src="" className="lot-img-preview" />
             </div>
+
+            <Input type="file"
+                className="lot-file"
+                onChange={updateImg} />
 
         </div>
     )

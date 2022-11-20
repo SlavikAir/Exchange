@@ -1,0 +1,32 @@
+.network-item {
+    filter: grayscale(100%);
+    width: 79px;
+    height: 25px;
+    
+    &:hover {
+        filter: none;
+    }
+    
+
+}
+.network-center {
+    display: flex;
+    align-items: center;
+}
+.network-fb {
+    margin-left: 30px;
+
+    transform: translateY(20%);
+    background: no-repeat url("https://static.olx.ua/static/olxua/packed/font/2f8beb30d7b5a18302412e315921d6ce6d.svg");
+}
+
+.network-yt {
+    margin-left: 30px;
+    background: no-repeat url("https://static.olx.ua/static/olxua/packed/font/2f50fd81b399890d1544c4fad903220963.svg");
+}
+.network-tw {
+    margin-left: 10px;
+
+    transform: translateY(20%);
+    background: no-repeat url("https://static.olx.ua/static/olxua/packed/font/2f5539ffc137444af4f407f5f6f7e43e9b.svg");
+}

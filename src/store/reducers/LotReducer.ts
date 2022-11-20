@@ -7,7 +7,8 @@ interface LotState {
     region:string
     description: string
     img:string
-    category:string                                          
+    category:string 
+    short:string                                        
  } 
 
  const initialState: LotState = {
@@ -16,7 +17,8 @@ interface LotState {
     region:"",
     description: "",
     img:"",
-    category: ""
+    category: "",
+    short:""
 }
 
 
@@ -38,6 +40,9 @@ export const LotSlice = createSlice ( {
         },
         addCategory(state, action: PayloadAction<string>) {
             state.category = action.payload;
+        },
+        addShort(state, action: PayloadAction<string>) {
+            state.short = action.payload;
         },
 
     }

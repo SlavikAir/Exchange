@@ -1,0 +1,35 @@
+.networks {
+    background: #cbf7ee;
+    padding: 80px 0 60px;
+}
+.networks-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.networks-text {
+    padding-top: 60px;
+    max-width: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px ;
+    line-height: 24px ;
+}
+.networks-text-item {
+    text-align: center;
+    color: #002f34;
+}
+.networks-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+ 
+}
+.networks-items-logo {
+    max-width: 100px;
+    max-height: 100px;
+}
