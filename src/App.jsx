@@ -6,8 +6,7 @@ import AddLot from "./components/AddLot/AddLot"
 import { Routes, Route } from "react-router-dom"
 import "./scss/index.scss"
 import { Category } from './components/Category/Category';
-import { Vip } from './components/Vip/Vip';
-import { Business } from './components/Business/Business';
+import { Footer } from './components/Footer/Footer';
 
 // npm run dev
 
@@ -18,11 +17,12 @@ function App() {
       <Header />
       <Search />
       <Routes>
-      <Route path='/' element={<Main />} />
-      <Route path='/add_lot' element={<AddLot />} />
-      <Route path='/category/' element={<Category />} />
-    </Routes>
-    </div >  
+        <Route path='/' element={<Main />} />
+        <Route path='/add_lot' element={<AddLot />} />
+        <Route path='/category/' element={<Category />} />
+      </Routes>
+      <Footer />
+    </div >
   );
 }
 
